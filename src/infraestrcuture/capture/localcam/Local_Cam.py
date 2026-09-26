@@ -1,6 +1,6 @@
 import cv2
 from typing import Any, Tuple
-from src.domain.interface.ICamera import ICamera
+from src.domain.interface.I_Camera import ICamera
 
 class LocalCam(ICamera):
     def __init__(self, camera_index=0):
